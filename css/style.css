@@ -46,10 +46,8 @@ body {
 /* Owner: Jessica Hobbins */
 
 .header {
-  width: 100%;
-  height: 500px;
+  min-height:350px;
   object-fit: fill;
-  padding-bottom: 120px;
 }
 
 /* Styling home page containers */
