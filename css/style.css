@@ -46,9 +46,14 @@ body {
 /* Owner: Jessica Hobbins */
 
 .header {
-  min-width:350px;
+  min-height:350px;
   max-height: 600px;
   object-fit: fill;
+}
+
+img {
+  min-height: 350px;
+  max-height: 600px;
 }
 
 /* Styling home page containers */
