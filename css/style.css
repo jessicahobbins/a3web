@@ -1,0 +1,161 @@
+/* Styling top navbar */
+/* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
+/* Owner: Jessica Hobbins */
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  color: #fff !important;
+  background-color: #000000 !important;
+  width: 100%;
+  position: fixed
+}
+
+.topbutton {
+  background-color: #000!important;
+  color: #fff!important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.topbutton:hover {
+  background-color: #4CAF50!important;
+}
+
+.bluebutton {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #fff!important;
+  background-color: #4284db!important
+}
+
+/* Styling image header */
+/* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
+/* Owner: Jessica Hobbins */
+
+.header {
+  min-height:350px;
+  max-height: 600px;
+  object-fit: fill;
+}
+
+img {
+  min-height: 350px;
+  max-height: 600px;
+}
+
+/* Styling home page containers */
+/* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
+/* Owner: Jessica Hobbins */
+
+.aboutcontainer {
+  padding: 20px
+}
+
+.teamcontainer {
+  padding: 20px;
+  text-align: center;
+  color: #fff!important;
+  background-color: #000000!important
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center!important
+}
+
+.teammember {
+display: inline-block;
+padding: 10px;
+}
+
+.circle {
+  border-radius: 50%
+}
+
+.row {
+  clear: both;
+  text-align: center;
+}
+
+/*Our Work*/
+/*our work backgrond colour*/
+#work {
+  display: block;
+}
+.ourwork-theme {
+  color:#fff !important; 
+  background-color:#333333 !important;
+}
+/*padding on top of our work, seperating pictures from top of block*/
+.ourwork-padding-top {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+/*extents dark background to bottom of page*/
+.ourwork-row-padding:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ourwork-row-padding:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*white cards line up, to left of page*/
+.ourwork-quarter {
+  float: left;
+  width: 100%;
+}
+/*colour of white cards in our work*/
+.ourwork-card-colour, .ourwork-hover-white:hover {
+  color: #000!important;
+  background-color: #fff!important;
+}
+/*shadow around white cards in our work*/
+.ourwork-card {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+/*space between cards*/
+.ourwork-row-padding>.ourwork-quarter {
+  padding: 0 8px;
+}
+/*padding around text in white cards*/
+.ourwork-container{
+  padding: 0.01em 16px;
+}
+/*lines up our work card*/
+.ourwork-quarter {
+  width: 24.99999%;
+}
