@@ -270,7 +270,7 @@ img {
 
 /* Position the image container (needed to position the left and right arrows) */
 .slideshowcontainer {
-  position: static;
+  position: relative;
 }
 
 /* Hide the images by default */
