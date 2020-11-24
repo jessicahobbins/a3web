@@ -274,7 +274,7 @@ img {
 }
 
 /* Hide the images by default */
-.mySlides {
+.slides {
   display: none;
 }
 
@@ -333,11 +333,12 @@ img {
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.transparency {
   opacity: 0.6;
 }
 
+/* Changes the look of the small image depending on whether it is active or not or being hovered on */
 .active,
-.demo:hover {
+.transparency:hover {
   opacity: 1;
 }
