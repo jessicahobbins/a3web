@@ -27,7 +27,8 @@ body {
   background-color: inherit;
   text-align: center;
   cursor: pointer;
-  white-space: nowrap
+  white-space: nowrap;
+  float: left;
 }
 
 .topbutton:hover {
