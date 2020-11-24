@@ -67,11 +67,6 @@ img {
   background-color: #292929!important;
 }
 
-.pagescontainer {
-  padding: 20px;
-  background: #f0f0f0;
-  color: black;
-}
 .missioncontainer {
   padding: 40px;
   background-color:#000000!important;
@@ -124,9 +119,6 @@ p {
   margin: 10px;
 }
 
-i {
-  padding-right: 10px;
-}
 .center {
   text-align: center!important
 }
@@ -145,7 +137,17 @@ padding: 10px;
   text-align: center;
 }
 
-/*Our Work*/
+/*Styling Work Pages*/
+/*Owner: Chelsea Penlington*/
+.pagescontainer {
+  padding: 20px;
+  background: #f0f0f0;
+  color: black;
+}
+
+/*Styling Our Work on Pages*/
+/*Owner: Chelsea Penlington*/
+
 /*our work id, display*/
 #work {
   display: block;
@@ -195,7 +197,9 @@ padding: 10px;
   width: 23%;
 }
 
-/*Contact*/
+/*Styling Contact on Pages*/
+/*Owner: Chelsea Penlington*/
+
 /*background and text colour of contact container*/
 .contact-theme {
   color: #000 !important;
@@ -239,4 +243,9 @@ padding: 10px;
 }
 .contact-envelope:before {
   content: "\f003";
+}
+
+/*padding for icons*/
+i {
+  padding-right: 10px;
 }
