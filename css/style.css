@@ -10,7 +10,7 @@ body {
   color: #fff !important;
   background-color: #000000 !important;
   width: 100%;
-  position: fixed
+  position: fixed;
 }
 
 .topbutton {
@@ -31,14 +31,14 @@ body {
 }
 
 .topbutton:hover {
-  background-color: #4CAF50!important;
+  background-color: #009688!important;
 }
 
 .bluebutton {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   color: #fff!important;
-  background-color: #4284db!important
+  background-color: #009688!important
 }
 
 /* Styling image header */
@@ -62,9 +62,8 @@ img {
 
 .aboutcontainer {
   padding: 20px;
-  padding-top: 40px;
-  background: #333333;
-  color: white;
+  background: #f0f0f0;
+  color: black;
 }
 
 .teamcontainer {
@@ -87,11 +86,21 @@ h2 {
   margin: 10px;
 }
 
+h3 {
+  font-size: 24px;
+  margin: 10px;
+  padding-top: 6px;
+}
+
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  margin: 10px;
 }
 
+i {
+  padding-right: 10px;
+}
 .center {
   text-align: center!important
 }
@@ -160,7 +169,62 @@ padding: 10px;
 .ourwork-container{
   padding: 0.01em 16px;
 }
-/*lines up our work card*/
+/*sets width of cards, lines up our work cards*/
 .ourwork-quarter {
   width: 23%;
+}
+
+/*Contact*/
+/*background and text colour of contact container*/
+.contact-theme {
+  color: #000 !important;
+  background-color: #f0f0f0 !important;
+}
+
+/*padding around contact us heading*/
+.contact-padding {
+  padding-top: 6px!important;
+  padding-bottom: 6px!important;
+  margin: 10px
+}
+
+/*padding around contact container*/
+.contact-container {
+  padding: 0.01em 16px;
+}
+
+/*large font used for contact bar*/
+.contact-font-large {
+  font-size: 24px!important;
+}
+
+/*bottom bar, under contact us*/
+.contact-bottombar {
+  border-bottom: 6px solid #ccc!important;
+  border-color: #009688!important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contact-text-teal {
+  color: #009688!important;
+}
+
+.contact-map-marker:before {
+  content: "\f041";
+}
+
+.contact-phone:before {
+  content: "\f095";
+}
+
+.contact-envelope:before {
+  content: "\f003";
 }
