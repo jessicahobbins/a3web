@@ -206,6 +206,12 @@ padding: 10px;
   background-color: #f0f0f0 !important;
 }
 
+/*top and bottom padding for contact container*/
+.contact-container-padding {
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+}
+
 /*padding around contact us heading*/
 .contact-padding {
   padding-top: 6px!important;
