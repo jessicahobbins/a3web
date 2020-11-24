@@ -146,10 +146,12 @@ padding: 10px;
 }
 
 /*Our Work*/
-/*our work backgrond colour*/
+/*our work id, display*/
 #work {
   display: block;
 }
+
+/*our work backgrond colour*/
 .ourwork-theme {
   color: black !important; 
   background-color: white !important;
