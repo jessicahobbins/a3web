@@ -100,6 +100,20 @@ h2 {
 
 h3 {
   font-size: 24px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h4 {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 24px;
   margin: 10px;
   padding-top: 6px;
 }
@@ -209,27 +223,18 @@ padding: 10px;
   border-color: #009688!important;
 }
 
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
+/*colour of icons in contacts banner*/
 .contact-text-teal {
   color: #009688!important;
 }
 
+/*assigning icons from w3schools css: map marker, phone and envelope*/
 .contact-map-marker:before {
   content: "\f041";
 }
-
 .contact-phone:before {
   content: "\f095";
 }
-
 .contact-envelope:before {
   content: "\f003";
 }
