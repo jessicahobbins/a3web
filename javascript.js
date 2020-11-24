@@ -1,6 +1,6 @@
-<!-- Javascript -->
-<!-- Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
-<!-- Owner: Jessica Hobbins -->
+// Javascript
+// Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+// Owner: Jessica Hobbins
 
 <script>
     var slideIndex = 1;
@@ -31,4 +31,4 @@
       dots[slideIndex-1].className += " active";
       captionText.innerHTML = dots[slideIndex-1].alt;
     }
-    </script>
+</script>
