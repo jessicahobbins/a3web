@@ -70,7 +70,7 @@ img {
 
 .missioncontainer {
   padding: 40px;
-  background-color: #292929;
+  background-color: #292929!important;
   color: #fff!important;
 }
 
