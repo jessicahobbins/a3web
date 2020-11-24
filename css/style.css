@@ -45,7 +45,7 @@ body {
 /* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
 /* Owner: Jessica Hobbins */
 
-.header {
+/* .header {
   min-height:350px;
   max-height: 600px;
   object-fit: fill;
@@ -54,7 +54,7 @@ body {
 img {
   min-height: 350px;
   max-height: 600px;
-}
+} */
 
 /* Styling home page containers */
 /* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
@@ -254,4 +254,90 @@ padding: 10px;
 /*padding for icons*/
 i {
   padding-right: 10px;
+}
+
+/* Styling slideshow */
+/*Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
+/* Owner: Jessica Hobbins */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slideshowcontainer {
+  position: static;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color:#292929;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
