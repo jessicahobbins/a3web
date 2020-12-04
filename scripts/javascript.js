@@ -5,6 +5,7 @@
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
