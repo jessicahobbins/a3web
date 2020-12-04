@@ -2,6 +2,7 @@
 // Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
 // Owner: Jessica Hobbins
 
+
 document.addEventListener("DOMContentLoaded", function(event) { 
 showSlides(slideIndex);
 
@@ -31,5 +32,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
-}
-});
+}});
