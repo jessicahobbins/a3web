@@ -344,6 +344,7 @@ i {
   opacity: 0.6;
 }
 
+/* Stylize active photos */
 .active,
 .demo:hover {
   opacity: 1;
