@@ -7,8 +7,8 @@
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var slideIndex = [];
+  showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {

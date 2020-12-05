@@ -3,6 +3,7 @@
 <title>CJC Consulting</title>
 <link rel="stylesheet" href="css/style.css">
 <body>
+
 <!-- Navbar -->
 <!-- Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# -->
 <!-- Owner: Jessica Hobbins -->
@@ -15,14 +16,25 @@
   <a href="programming.html" class="topbutton">Programming</a>
 </div>
 
-<!-- Navbar -->
+<!-- Slideshow -->
 <!-- Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
 <!-- Owner: Jessica Hobbins -->
+<!-- <script type="text/javascript">
+  plusSlides();
+</script>
 
-<!-- Container for the image gallery -->
+<script type="text/javascript">
+  showSlides();
+</script>
+
+<script type="text/javascript">
+  currentSlide();
+</script> -->
+
+<!-- Container for the images -->
 <div class="container">
 
-  <!-- Full-width images with number text -->
+  <!-- Full-width images with numbers indicating which photo is selected out of 6 -->
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
       <img src="images/header.jpg" style="width:100%">
@@ -53,11 +65,11 @@
       <img src="images/geovis.jpg" style="width:100%">
   </div>
 
-  <!-- Next and previous buttons -->
+  <!-- Next and previous buttons on slideshow -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-  <!-- Image text -->
+  <!-- Caption text -->
   <div class="caption-container">
     <p id="caption"></p>
   </div>
@@ -139,18 +151,7 @@ Owner: Jessica Hobbins -->
 <!-- Adapted from https://www.w3schools.com/tags/tag_footer.asp -->
 <div class="footer">
   Footer
-</div>
+</div>S
 </body>
-<script type="text/javascript">
-  plusSlides();
-</script>
-
-<script type="text/javascript">
-  showSlides();
-</script>
-
-<script type="text/javascript">
-  currentSlide();
-</script>
 <script type="text/javascript" src="scripts\javascript.js"></script>
 </html>
