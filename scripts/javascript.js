@@ -2,6 +2,8 @@
 // Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
 // Owner: Jessica Hobbins
 
+// This makes the HTML laod before the Javascript - fixing slide not showing up conflict
+// Source: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 
