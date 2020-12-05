@@ -261,7 +261,6 @@ i {
 /* Styling slideshow header */
 /* Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Owner: Jessica Hobbins */
-
 * {
   box-sizing: border-box;
 }
@@ -344,7 +343,6 @@ i {
   opacity: 0.6;
 }
 
-/* Stylize active photos */
 .active,
 .demo:hover {
   opacity: 1;

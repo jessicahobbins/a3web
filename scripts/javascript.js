@@ -5,10 +5,10 @@
 // This makes the HTML laod before the Javascript - fixing slide not showing up conflict
 // Source: https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+// document.addEventListener("DOMContentLoaded", function(event) { 
 
 var slideIndex = 1;
-  showSlides(slideIndex);
+showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -36,4 +36,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
-}})
+}
+// }})
