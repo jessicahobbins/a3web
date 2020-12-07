@@ -177,6 +177,7 @@ column-width: 100%;
 
 /*white cards line up, to left of page*/
 .ourwork-quarter {
+  float:left;
   width: 100%;
   font-size: 18px;
   font-style: italic;
