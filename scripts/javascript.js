@@ -4,7 +4,7 @@
 
 // This scripts adds a slideshow to the page(s) that the functions are called to.
 
-// Slideshow loads with slide in position 0 (slide #1) as visible
+// Slideshow loads with slide in position 1 as visible
 var slideIndex = 1;
 showSlides(slideIndex);
 
