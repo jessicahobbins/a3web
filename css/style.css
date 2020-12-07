@@ -131,6 +131,7 @@ p {
 padding: 20px;
 column-count: 3;
 -moz-column-count: 1;
+-webkit-column-count: 1;
 column-width: 100%;
 }
 
