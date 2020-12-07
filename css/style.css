@@ -70,20 +70,22 @@ img {
   text-align: center;
   color: #fff!important;
   background-color: #292929!important;
+  font-size: 18px;
 }
 
 .missioncontainer {
   padding: 40px;
   background-color:#000000!important;
   color: #fff!important;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .teamcontainer {
   padding: 20px;
   text-align: center;
   color: #fff!important;
-  background-color: #000000!important
+  background-color: #000000!important;
+  font-size: 18px;
 }
 
 h1 {
@@ -125,7 +127,7 @@ h5 {
 
 p {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px 16;
+  font-size: 14px 16 18;
   margin: 5px 0;
 }
 
