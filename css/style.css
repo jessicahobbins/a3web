@@ -213,8 +213,14 @@ padding: 10px;
   width: 23%;
 }
 
+/*For lists in our work white cards, circle bullet points*/
 ul {
   list-style-type: circle;
+}
+
+/*Test for responsize design*/
+*:before,*:after{
+  box-sizing:inherit
 }
 
 /*Styling Contact on Pages*/
