@@ -5,7 +5,7 @@
 // This scripts adds a slideshow to the page(s) that the functions are called to.
 
 // Slideshow loads with slide in position 1 as visible
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/previous controls on slide. When next or previous is clicked, the index position changes and the slide in that index position is displayed.
