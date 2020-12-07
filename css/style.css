@@ -274,9 +274,9 @@ i {
 /* Styling slideshow header */
 /* Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Owner: Jessica Hobbins */
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
