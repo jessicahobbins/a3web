@@ -98,9 +98,9 @@ h2 {
 h3 {
   font-size: 20px;
   font-family: 'Times', Arial,sans-serif;
-  font-style: bold
+  font-style: bold;
   font-weight: 400;
-  margin-top: 10px !important;
+  margin: 0px 10;
 }
 
 h4 {
