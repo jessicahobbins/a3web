@@ -207,8 +207,8 @@ ul {
   list-style-type: circle;
 }
 
-Test for responsize design
-*:before,*:after{
+/*Test for responsize design*/
+*,*:before,*:after{
   box-sizing:inherit
 }
 
