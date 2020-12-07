@@ -277,7 +277,6 @@ i {
   padding-right: 10px;
 }
 
-
 /* Styling slideshow header */
 /* Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Owner: Jessica Hobbins */
@@ -324,13 +323,13 @@ i {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with slight transparecny */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
+/* NNumber of photo */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -353,7 +352,7 @@ i {
   clear: both;
 }
 
-/* Six columns side by side */
+/* Columns for thumbnails */
 .column {
   float: left;
   width: 16.66%;
@@ -364,11 +363,15 @@ i {
   opacity: 0.6;
 }
 
+/* Change effect on hover */
 .active,
 .demo:hover {
   opacity: 1;
 }
 
+/* Styling footer */
+/* Owner: Jessica Hobbins */
+/* Adapted from: https://www.w3schools.com/tags/tag_footer.asp */
 .footer {
   font-size: 20px;
   font-family: 'Times', Arial,sans-serif;
