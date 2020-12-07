@@ -202,10 +202,6 @@ column-width: 100%;
 .ourwork-container{
   padding: 0.01em 16px;
 }
-/*sets width of cards, lines up our work cards
-.ourwork-quarter {
-  width: 23%;
-}*/
 
 /*For lists in our work white cards, circle bullet points*/
 ul {
@@ -216,12 +212,6 @@ Test for responsize design
 *:before,*:after{
   box-sizing:inherit
 }
-
-/*@media only screen and (max-width:620px) {
-  /* For mobile phones: 
-  .menu, .main, .right {
-    width:100%;
-}*/
 
 /*Styling Contact on Pages*/
 /*Owner: Chelsea Penlington*/
