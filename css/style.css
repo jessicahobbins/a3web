@@ -170,7 +170,7 @@ column-width: 100%;
   padding-bottom: 64px!important;
 }
 /*extents dark background to bottom of page*/
-.ourwork-row-padding:after {
+.ourwork-row-padding:after, .ourwork-row-padding:before {
   content: "";
   display: table;
   clear: both;
