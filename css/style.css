@@ -130,6 +130,7 @@ p {
 /* display: inline-block; */
 padding: 20px;
 column-count: 3;
+-moz-column-count: 1;
 column-width: 100%;
 }
 
