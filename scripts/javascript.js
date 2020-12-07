@@ -4,7 +4,7 @@
 
 // This scripts adds a slideshow to the page(s) that the functions are called to.
 
-// Slideshow loads with slide in position 1 as visible
+// Slideshow loads with slide in position 0 (slide #1) as visible
 var slideIndex = 0;
 showSlides(slideIndex);
 
@@ -30,7 +30,7 @@ function showSlides(n) {
     slides[i].style.display = "none";                                 // Hiding the slides that are not currently selected
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");     // Displaying the sldies that are currently selected
+    dots[i].className = dots[i].className.replace(" active", "");     // Displaying the slides that are currently selected
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
