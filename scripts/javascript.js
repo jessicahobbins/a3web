@@ -23,8 +23,8 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");           // Calling mySlides element, which contains the images
   var dots = document.getElementsByClassName("demo");                 // Calling the demo element, which reduces the opacity of the thumbnail not currently selected
-  var captionText = document.getElementById("caption");               // Calling the caption element, which presents itself as a bar between the main sldies and the thumbnails with text
-  if (n > slides.length) {slideIndex = 1}                             // Displaying slide 1 as default upon load
+  var captionText = document.getElementById("caption");               // Calling the caption element, which presents itself as a bar between the main slides and the thumbnails with text
+  if (n > slides.length) {slideIndex = 1}                             // Displaying slide 1 as default
   if (n < 1) {slideIndex = slides.length}                             // slideIndex is equal to the length of the slides that have been coded in the HTML
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";                                 // Hiding the slides that are not currently selected
