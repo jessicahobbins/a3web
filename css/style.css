@@ -70,6 +70,7 @@ body {
   color: #fff!important;
   background-color: #000000!important;
   font-size: 18px;
+  float: left;
 }
 
 h1 {
@@ -132,7 +133,6 @@ display: table-cell;
 padding: 20px;
 column-count: 3;
 column-width: 100%;
-float: left;
 }
 
 .circle {
