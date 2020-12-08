@@ -188,6 +188,7 @@ column-width: 33%;
   font-style: italic;
   width: 23%;
   word-wrap: break-word;
+  min-height: max-content;
 }
 
 /*shadow around white cards in our work*/
