@@ -188,7 +188,7 @@ column-width: 33%;
   font-style: italic;
   width: 23%;
   word-wrap: break-word;
-  display: flex;
+  
 }
 
 /*shadow around white cards in our work*/
@@ -196,6 +196,7 @@ column-width: 33%;
   font-size: 14px;
   font-style: normal;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  display: flex;
 }
 
 /*colour of white cards in our work*/
