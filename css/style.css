@@ -75,15 +75,15 @@ body {
   color: #fff!important;
   background-color: #000000!important;
   font-size: 18px;
-  float: left;
+  
 }
-
 
 .teammember {
   display: block;
   padding: 20px;
   column-count: 3;
-  /* column-width: 100%; */
+  width: 100%;
+  float: left;
   }  
 
 h1 {
