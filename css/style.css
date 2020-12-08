@@ -43,8 +43,13 @@ body {
 
 .nav-logo {
   float: right;
+<<<<<<< HEAD
   margin: 1px;
   padding: 1px;
+=======
+  margin: 0px;
+  padding: 2px;
+>>>>>>> 0135cd4312e30a91f8c76cf2576cf604e48155fd
 }
 /* Styling home page containers */
 /* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
