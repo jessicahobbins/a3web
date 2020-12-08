@@ -112,7 +112,6 @@ h2 {
 h3 {
   font-size: 20px;
   font-family: 'Times', Arial,sans-serif;
-  font-style: bold;
   font-weight: 400;
   margin: 3px 0;
 }
@@ -136,13 +135,21 @@ h5 {
 /*Paragraph text tag, formatting*/
 p {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   font-size: 18px 16 14;
+=======
+  font-size: 14px, 16px, 18px;
+>>>>>>> 01fbf675238f0d330f31ff6fd7153c146ba26641
   margin: 5px 0;
 }
 
 .bio {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   font-size: 18px 16 14;
+=======
+  font-size: 14px, 16px, 18px;
+>>>>>>> 01fbf675238f0d330f31ff6fd7153c146ba26641
   column-count: 3;
 }
 
