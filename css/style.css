@@ -174,7 +174,6 @@ column-width: 33%;
   content: "";
   display: table;
   clear: both;
-  white-space: nowrap;
 }
 
 /*white cards line up, to left of page*/
@@ -184,6 +183,7 @@ column-width: 33%;
   font-style: italic;
   width: 24%;
   word-wrap: break-word;
+  white-space: nowrap;
 }
 /*colour of white cards in our work*/
 .ourwork-card-colour, .ourwork-hover-white:hover {
