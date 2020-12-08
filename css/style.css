@@ -151,10 +151,13 @@ p {
 
 /*Styling Work Pages*/
 /*Owner: Chelsea Penlington*/
+
+/*Gets rid of white gap between header photo and page title*/
 .header{
   font-size: 0
 }
 
+/*Formatting background, padding and and font colour of page title*/
 .pagescontainer {
   padding: 20px;
   background: #E8E8E8;
