@@ -76,12 +76,12 @@ body {
   background-color: #000000!important;
   font-size: 18px;
 }
-/*
+/*Formatting of teams container, brings background down to bottom of page*/
 .teamrow {
   content: "";
   display: table;
   clear: both;
-}*/
+}
 
 /*Lines up team pics and bios horizontally on page*/
 .teammember {
