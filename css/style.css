@@ -184,7 +184,6 @@ column-width: 33%;
   width: 23%;
   word-wrap: break-word;
   display: grid;
-  grid-gap: 5px;  
   grid-template-columns: repeat(auto-fit, 100px);
 }
 /*colour of white cards in our work*/
