@@ -94,6 +94,7 @@ body {
   .teammember{width:30%;}
 }
 
+/*Heading text tags, formatting*/
 h1 {
   font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
@@ -131,6 +132,7 @@ h5 {
   padding-top: 6px;
 }
 
+/*Paragraph text tag, formatting*/
 p {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px 16px 18px;
@@ -183,7 +185,7 @@ p {
   padding-bottom: 64px!important;
 }
 
-/*extents dark background to bottom of page*/
+/*extents background to bottom of page*/
 .ourwork-row-padding:after, .ourwork-row-padding:before {
   content: "";
   display: table;
