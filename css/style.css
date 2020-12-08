@@ -91,7 +91,7 @@ body {
 
 /*Change width of work cards depending on the size of the screen*/
 @media(min-width:800px){
-  .teammember{width:23%;}
+  .teammember{width:33%;}
 }
 
 h1 {
