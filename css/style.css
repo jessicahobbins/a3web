@@ -246,6 +246,12 @@ ul {
   font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*small font used in contact bar*/
+.contact-font-small {
+  font-size: 10px;
+  font-family: "Times",Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /*bottom bar, under contact us*/
 .contact-bottombar {
   border-bottom: 6px solid #ccc!important;
