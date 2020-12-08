@@ -82,12 +82,14 @@ body {
   display: table;
   clear: both;
 }
+
+/*
 .teammember {
   display: block;
   padding: 20px;
   width: 100%;
   float: left;
-  }  
+  }  */
 
 /*Change width of team pics and bios depending on the size of the screen*/
 @media(min-width:800px){
