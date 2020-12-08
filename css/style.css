@@ -188,7 +188,6 @@ column-width: 33%;
   font-style: italic;
   width: 23%;
   word-wrap: break-word;
-  min-height: max-content;
 }
 
 /*shadow around white cards in our work*/
@@ -207,6 +206,7 @@ column-width: 33%;
 /*padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
+  min-height: 100px;
 }
 
 /*For lists in our work white cards, circle bullet points*/
