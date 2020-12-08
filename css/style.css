@@ -202,7 +202,7 @@ column-width: 33%;
 /*padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
-  padding-bottom: 20%;
+  padding-bottom: -20%;
   margin-bottom: -20%;
 }
 
