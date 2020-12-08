@@ -127,10 +127,10 @@ p {
 }
 
 .teammember {
-display: table-cell;
+display: inline-block;
 padding: 20px;
 column-count: 3;
-column-width: 100%;
+column-width: 33%;
 }
 
 .circle {
