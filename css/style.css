@@ -237,63 +237,58 @@ ul {
   list-style-type: circle;
 }
 
-/*Test for responsize design
-*,*:before,*:after{
-  box-sizing:inherit
-}*/
-
 /*Styling Contact on Pages*/
 /*Owner: Chelsea Penlington*/
 
-/*background and text colour of contact container*/
+/*Background and text colour of contact container*/
 .contact-theme {
   color: #000 !important;
   background-color: #f0f0f0 !important;
 }
 
-/*top and bottom padding for contact container*/
+/*Padding around contact container*/
+.contact-container {
+  padding: 0.01em 16px;
+}
+
+/*Top and bottom padding for contact container*/
 .contact-container-padding {
   padding-top: 32px!important;
   padding-bottom: 32px!important;
 }
 
-/*padding around contact us heading*/
+/*Padding around contact us heading*/
 .contact-padding {
   padding-top: 6px!important;
   padding-bottom: 6px!important;
   margin: 10px
 }
 
-/*padding around contact container*/
-.contact-container {
-  padding: 0.01em 16px;
-}
-
-/*large font used for contact bar*/
+/*Large font used for contact bar*/
 .contact-font-large {
   font-size: 24px!important;
   font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*small font used in contact bar*/
+/*Small font used in contact bar; address, phone and email*/
 .contact-font-small {
   font-size: 16px !important;
   font-family: "Times",Tahoma, Geneva, Verdana, sans-serif;
   margin: 5px;
 }
 
-/*bottom bar, under contact us*/
+/*Teal bottom bar, under contact us*/
 .contact-bottombar {
   border-bottom: 6px solid #ccc!important;
   border-color: #009688!important;
 }
 
-/*colour of icons in contacts banner*/
+/*Colour of icons in contacts banner*/
 .contact-text-teal {
   color: #009688!important;
 }
 
-/*assigning icons from w3schools css: map marker, phone and envelope*/
+/*Assigning icons from w3schools css: map marker, phone and envelope*/
 .contact-map-marker:before {
   content: "\f041";
 }
@@ -304,13 +299,13 @@ ul {
   content: "\f003";
 }
 
-/*padding for icons*/
+/*Padding for icons*/
 i {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-/* Styling slideshow header */
+/* Styling Slideshow Header */
 /* Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Owner: Jessica Hobbins */
 
