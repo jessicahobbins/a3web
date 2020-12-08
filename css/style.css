@@ -76,12 +76,12 @@ body {
   background-color: #000000!important;
   font-size: 18px;
 }
-
+/*
 .teamrow {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 /*Lines up team pics and bios horizontally on page*/
 .teammember {
