@@ -126,6 +126,7 @@ p {
 .center {
   text-align: center!important;
   width:33%;
+  float: left;
 }
 
 .teammember {
@@ -147,11 +148,13 @@ column-width: 100%;
 .right {
   text-align: center!important;
   width: 33%;
+  float: left;
 }
 
 .left {
   text-align: center!important;
   width: 33%;
+  float: left;
 }
 
 /*Styling Work Pages*/
