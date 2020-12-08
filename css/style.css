@@ -136,7 +136,7 @@ p {
 display: inline-block;
 padding: 20px;
 column-count: 3;
-column-width: 33%;
+column-width: 100%;
 }
 
 .circle {
