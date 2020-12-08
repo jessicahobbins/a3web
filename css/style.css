@@ -270,6 +270,8 @@ ul {
 .contact-font-small {
   font-size: 16px !important;
   font-family: "Times",Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+
 }
 
 /*bottom bar, under contact us*/
