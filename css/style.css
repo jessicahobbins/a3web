@@ -146,13 +146,6 @@ p {
   font-size: 18px;
 }
 
-
-
-.row {
-  clear: both;
-  text-align: center;
-}
-
 /*Styling Work Pages*/
 /*Owner: Chelsea Penlington*/
 .pagescontainer {
@@ -306,6 +299,7 @@ i {
 /* Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Owner: Jessica Hobbins */
 
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
@@ -321,6 +315,13 @@ i {
 .cursor {
   cursor: pointer;
 }
+
+/*Aligns the thumbnails*/
+.row {
+  clear: both;
+  text-align: center;
+}
+
 
 /* Next & previous buttons */
 .prev,
