@@ -127,7 +127,7 @@ p {
 }
 
 .teammember {
-/*display: table-cell;*/
+display: table-cell;
 padding: 20px;
 column-count: 3;
 column-width: 100%;
