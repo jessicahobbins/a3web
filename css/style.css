@@ -172,7 +172,7 @@ column-width: 33%;
 /*extents dark background to bottom of page*/
 .ourwork-row-padding:after, .ourwork-row-padding:before {
   content: "";
-  display: inline-table;
+  display: table;
   clear: both;
 }
 
