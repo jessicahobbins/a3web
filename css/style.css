@@ -78,6 +78,14 @@ body {
   float: left;
 }
 
+
+.teammember {
+  display: block;
+  padding: 20px;
+  column-count: 3;
+  /* column-width: 100%; */
+  }  
+
 h1 {
   font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
@@ -130,13 +138,6 @@ p {
 
 .center {
   text-align: center!important;
-}
-
-.teammember {
-display: block;
-padding: 20px;
-column-count: 3;
-/* column-width: 100%; */
 }
 
 .circle {
