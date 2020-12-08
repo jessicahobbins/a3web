@@ -85,7 +85,6 @@ body {
 .teammember {
   display: block;
   padding: 20px;
-  column-count: 3;
   width: 100%;
   float: left;
   }  
