@@ -207,7 +207,6 @@ column-width: 33%;
 /*For lists in our work white cards, circle bullet points*/
 ul {
   list-style-type: circle;
-  display: inline-flex;
 }
 
 /*Test for responsize design*/
