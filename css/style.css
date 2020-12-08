@@ -300,9 +300,6 @@ i {
 /* Styling slideshow header */
 /* Adapted from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 /* Owner: Jessica Hobbins */
-/** {
-  box-sizing: border-box;
-}*/
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -334,7 +331,6 @@ i {
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -396,5 +392,5 @@ i {
   text-align: center;
   color: white;
   background-color: #222;
-  padding: 10px;
+  padding: 15px;
 }
