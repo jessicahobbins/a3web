@@ -179,7 +179,6 @@ column-width: 33%;
 /*white cards line up, to left of page*/
 .ourwork-quarter {
   float: left;
-  display: inline;
   width: 100%;
   font-size: 18px;
   font-style: italic;
@@ -208,6 +207,7 @@ column-width: 33%;
 /*For lists in our work white cards, circle bullet points*/
 ul {
   list-style-type: circle;
+  float:left;
 }
 
 /*Test for responsize design*/
