@@ -208,7 +208,7 @@ column-width: 33%;
 ul {
   list-style-type: circle;
   float:left;
-  display: inline;
+  display: block;
 }
 
 /*Test for responsize design*/
