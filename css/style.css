@@ -135,13 +135,13 @@ h5 {
 /*Paragraph text tag, formatting*/
 p {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px 16px 18px;
+  font-size: 14px, 16px, 18px;
   margin: 5px 0;
 }
 
 .bio {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14px 16px 18px;
+  font-size: 14px, 16px, 18px;
   column-count: 3;
 }
 
