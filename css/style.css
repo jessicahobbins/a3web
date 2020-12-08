@@ -202,15 +202,12 @@ column-width: 33%;
 /*padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
+  position: relative;
 }
 
 /*For lists in our work white cards, circle bullet points*/
 ul {
   list-style-type: circle;
-}
-
-li {
-  position: relative;
 }
 
 /*Test for responsize design*/
