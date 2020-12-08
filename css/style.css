@@ -98,6 +98,10 @@ body {
   border-radius: 50%
 }
 
+.center {
+  text-align: center!important;
+}
+
 /*Heading text tags, formatting*/
 h1 {
   font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
@@ -140,10 +144,6 @@ h5 {
 p {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
-}
-
-.center {
-  text-align: center!important;
 }
 
 
