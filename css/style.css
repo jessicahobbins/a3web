@@ -320,13 +320,6 @@ i {
   cursor: pointer;
 }
 
-/*Aligns the thumbnails*/
-.row {
-  clear: both;
-  text-align: center;
-}
-
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -368,6 +361,12 @@ i {
 .sep-box {
   background-color: #222;
   padding: 10px;
+}
+
+/*Aligns the thumbnails*/
+.row {
+  clear: both;
+  text-align: center;
 }
 
 .row:after {
