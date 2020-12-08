@@ -243,6 +243,7 @@ ul {
 /*large font used for contact bar*/
 .contact-font-large {
   font-size: 24px!important;
+  font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*bottom bar, under contact us*/
