@@ -237,10 +237,10 @@ ul {
   list-style-type: circle;
 }
 
-/*Test for responsize design*/
+/*Test for responsize design
 *,*:before,*:after{
   box-sizing:inherit
-}
+}*/
 
 /*Styling Contact on Pages*/
 /*Owner: Chelsea Penlington*/
