@@ -179,7 +179,6 @@ column-width: 33%;
 /*white cards line up, to left of page*/
 .ourwork-quarter {
   float: left;
-  width: 100%;
   font-size: 18px;
   font-style: italic;
   width: 23%;
@@ -202,7 +201,6 @@ column-width: 33%;
 /*padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
-  clear: both;
 }
 
 /*For lists in our work white cards, circle bullet points*/
