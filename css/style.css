@@ -183,6 +183,7 @@ column-width: 33%;
   font-style: italic;
   width: 23%;
   word-wrap: break-word;
+  display: grid;
 }
 /*colour of white cards in our work*/
 .ourwork-card-colour, .ourwork-hover-white:hover {
