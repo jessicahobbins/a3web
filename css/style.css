@@ -125,14 +125,13 @@ p {
 
 .center {
   text-align: center!important;
-  width:33%;
-  float: left;
 }
 
 .teammember {
 display: table-cell;
 padding: 20px;
 column-count: 3;
+column-width: 100%;
 }
 
 .circle {
@@ -142,18 +141,6 @@ column-count: 3;
 .row {
   clear: both;
   text-align: center;
-}
-
-.right {
-  text-align: center!important;
-  width: 33%;
-  float: left;
-}
-
-.left {
-  text-align: center!important;
-  width: 33%;
-  float: left;
 }
 
 /*Styling Work Pages*/
