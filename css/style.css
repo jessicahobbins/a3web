@@ -41,6 +41,11 @@ body {
   background-color: #21333b!important;
 }
 
+.nav-logo {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
 /* Styling home page containers */
 /* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
 /* Owner: Jessica Hobbins */
