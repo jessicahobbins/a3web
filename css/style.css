@@ -147,11 +147,14 @@ h5 {
 p {
   font-family: 'Times', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
-  margin: 0px;
 }
 
 /*Styling Work Pages*/
 /*Owner: Chelsea Penlington*/
+.header{
+  margin:0px;
+}
+
 .pagescontainer {
   padding: 20px;
   background: #E8E8E8;
