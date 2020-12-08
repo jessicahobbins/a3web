@@ -50,10 +50,7 @@ body {
 /* Adapted from https://www.w3schools.com/w3css/tryw3css_templates_website.htm# */
 /* Owner: Jessica Hobbins */
 
-.header {
-  font-size: 0px;
-}
-
+/* Formatting container for About Us section */
 .aboutcontainer {
   padding: 40px;
   text-align: center;
@@ -62,6 +59,7 @@ body {
   font-size: 18px;
 }
 
+/* Formatting container for Mission Statement */
 .missioncontainer {
   padding: 40px;
   background-color:#000000!important;
@@ -97,10 +95,12 @@ body {
   .teammember{width:30%;}
 }
 
+/* Styling team photos with circle frame */
 .circle {
   border-radius: 50%
 }
 
+/* Used for centering all content within sections */
 .center {
   text-align: center!important;
 }
