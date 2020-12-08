@@ -122,21 +122,15 @@ p {
   column-count: 3;
 }
 
-
 .center {
   text-align: center!important;
 }
-
-@media screen and (max-width: 600px) {
-  .teammember {
-    width: 100%;
-  }
 
 .teammember {
 display: table-cell;
 padding: 20px;
 column-count: 3;
-column-width: 33%;
+column-width: 100%;
 }
 
 .circle {
