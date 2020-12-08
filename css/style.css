@@ -172,11 +172,8 @@ column-width: 33%;
 /*extents dark background to bottom of page*/
 .ourwork-row-padding:after, .ourwork-row-padding:before {
   content: "";
-  display: flex;
+  display: table;
   clear: both;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
 }
 
 /*space between cards*/
