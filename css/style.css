@@ -178,11 +178,12 @@ column-width: 33%;
 
 /*white cards line up, to left of page*/
 .ourwork-quarter {
-  float:left;
-  width: 100%;
+  float: left;
   font-size: 18px;
   font-style: italic;
   width: 23%;
+  word-wrap: break-word;
+  display: grid;
 }
 /*colour of white cards in our work*/
 .ourwork-card-colour, .ourwork-hover-white:hover {
@@ -202,7 +203,6 @@ column-width: 33%;
 /*padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
-  position: relative;
 }
 
 /*For lists in our work white cards, circle bullet points*/
@@ -246,6 +246,12 @@ ul {
 .contact-font-large {
   font-size: 24px!important;
   font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*small font used in contact bar*/
+.contact-font-small {
+  font-size: 16px;
+  font-family: "Times",Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*bottom bar, under contact us*/
