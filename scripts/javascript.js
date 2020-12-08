@@ -22,8 +22,7 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");           // Calling mySlides element, which contains the images
-  var dots = document.getElementsByClassName("demo");                 // Calling the demo element, which reduces the opacity of the thumbnail not currently selected
-  var captionText = document.getElementById("caption");               // Calling the caption element, which presents itself as a bar between the main slides and the thumbnails with text
+  var dots = document.getElementsByClassName("opacity");              // Calling the opacity element, which reduces the opacity of the thumbnail not currently selected
   if (n > slides.length) {slideIndex = 1}                             // Displaying slide 1 as default
   if (n < 1) {slideIndex = slides.length}                             // slideIndex is equal to the length of the slides that have been coded in the HTML
   for (i = 0; i < slides.length; i++) {
@@ -32,7 +31,6 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");     // Displaying the slides that are currently selected
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block";                      // Displaying as block level element
   dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
