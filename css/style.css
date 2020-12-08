@@ -202,7 +202,7 @@ column-width: 33%;
 /*padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
-  padding-bottom: 50%;
+  margin-bottom: -10%;
 }
 
 /*For lists in our work white cards, circle bullet points*/
