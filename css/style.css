@@ -203,7 +203,6 @@ column-width: 33%;
 .ourwork-container{
   padding: 0.01em 16px;
   clear: both;
-  display: inline-block;
 }
 
 /*For lists in our work white cards, circle bullet points*/
