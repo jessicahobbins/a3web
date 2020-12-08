@@ -105,7 +105,8 @@ h4 {
 }
 
 h5 {
-  font-size: 24px;
+  font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
   margin: 10px;
   padding-top: 6px;
 }
@@ -243,6 +244,7 @@ ul {
 /*large font used for contact bar*/
 .contact-font-large {
   font-size: 24px!important;
+  font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*bottom bar, under contact us*/
