@@ -337,12 +337,10 @@ i {
   top: 0;
 }
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
+/* Line separating the slides from the thumbnails */
+.sep-box {
   background-color: #222;
-  padding: 20px 16px;
-  color: white!important;
+  padding: 10px;
 }
 
 .row:after {
@@ -358,13 +356,13 @@ i {
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.opacity {
   opacity: 0.6;
 }
 
 /* Change effect on hover */
 .active,
-.demo:hover {
+.opacity:hover {
   opacity: 1;
 }
 
