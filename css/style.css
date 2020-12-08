@@ -77,6 +77,11 @@ body {
   font-size: 18px;
 }
 
+.teamrow {
+  content: "";
+  display: table;
+  clear: both;
+}
 .teammember {
   display: block;
   padding: 20px;
