@@ -176,30 +176,31 @@ p {
 /*Styling Our Work on Pages*/
 /*Owner: Chelsea Penlington*/
 
-/*our work backgrond colour*/
+/*Our Work backgrond colour*/
 .ourwork-theme {
   color: black !important; 
   background-color: white !important;
 }
-/*padding on top of our work, seperating pictures from top of block*/
+
+/*Padding on top of Our Work, seperating pictures from top of block*/
 .ourwork-padding-top {
   padding-top: 64px!important;
   padding-bottom: 64px!important;
 }
 
-/*extents background to bottom of page*/
+/*Extends background to bottom of page*/
 .ourwork-row-padding:after, .ourwork-row-padding:before {
   content: "";
   display: table;
   clear: both;
 }
 
-/*space between cards*/
+/*Space between cards*/
 .ourwork-row-padding>.ourwork-quarter {
   padding: 0 8px;
 }
 
-/*white cards line up, to left of page*/
+/*White cards line up, to left of page, break word to keep text within cards*/
 .ourwork-quarter {
   float: left;
   font-size: 18px;
@@ -208,30 +209,30 @@ p {
   word-wrap: break-word;
 }
 
-/*Change width of work cards depending on the size of the screen*/
+/*Change width of work cards depending on the size of the screen, responsive design*/
 @media(min-width:800px){
   .ourwork-quarter{width:23%;}
 }
 
-/*shadow around white cards in our work*/
+/*Shadow around white cards in Our Work section*/
 .ourwork-card {
   font-size: 14px;
   font-style: normal;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-/*colour of white cards in our work*/
+/*Colour of white cards in Our Work*/
 .ourwork-card-colour, .ourwork-hover-white:hover {
   color: #000!important;
   background-color: #fff!important;
 }
 
-/*padding around text in white cards*/
+/*Padding around text in white cards*/
 .ourwork-container{
   padding: 0.01em 16px;
 }
 
-/*For lists in our work white cards, circle bullet points*/
+/*Lists in Our Work white cards, circle bullet points*/
 ul {
   list-style-type: circle;
 }
